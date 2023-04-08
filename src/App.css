@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
-  height: 100vh;
+  height: 95vh;
   margin: 0;
-  padding: 20px;
+  padding: 30px;
  
 }
 h1 {
@@ -14,6 +14,20 @@ h1 {
   font-size: 68px;
   width: 100%; /* Add this property to make the heading take up the full width */
     text-align: center; /* Add this property to center-align the heading */
+}
+footer {
+  display: flex;
+  text-align: center;
+  
+}
+footer p {
+  font-size: 24px;
+}
+footer p a {
+  color: #cd6f16;
+}
+footer p a:hover {
+  color: #cd6e16b8;
 }
 @media screen and (max-width: 768px) {
   .App {

@@ -28,7 +28,7 @@
  }
  
  img {
-   max-width: 100%;
+  width: 500px;
    height: auto;
    margin-top: 20px;
    border: solid;

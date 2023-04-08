@@ -6,6 +6,9 @@ function App() {
     <div className="App">
       <h1>Random Cat Generator</h1>
       <CatGenerator />
+      <footer>
+        <p>Made by <a href='https://siftion.com'>siftion</a></p>
+      </footer>
     </div>
   );
 }
