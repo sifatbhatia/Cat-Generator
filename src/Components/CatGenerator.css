@@ -1,0 +1,74 @@
+
+.theme {
+   color: #cd6f16;
+   background-color: #021b14;
+ }
+
+ 
+ button {
+   background-color: #021b14;
+   color: white;
+   padding: 20px 30px;
+   border: solid;
+   border-color: #cd6f16;
+   border-radius: 10px;
+   font-size: 1rem;
+   cursor: pointer;
+   margin-top: 20px;
+   transition: background-color 0.3s ease;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ button:hover {
+   background-color: #cd6f16;
+ }
+ 
+ button:focus {
+   outline: none;
+ }
+ 
+ img {
+   max-width: 100%;
+   height: auto;
+   margin-top: 20px;
+   border: solid;
+   border-radius: 20px;
+   border-color: #cd6f16;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .button-container {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .App {
+     margin: 20px;
+   }
+ 
+   button {
+     padding: 8px 16px;
+     font-size: 0.8rem;
+   }
+ 
+   img {
+      max-width: 100%;
+     margin-top: 10px;
+   }
+ }
+ 
+
+ @media screen and (min-width: 600px) and (max-width: 768px) and (min-height: 1024px) and (max-height: 2048px) {
+  
+ 
+   button {
+     padding: 20px 40px;
+     font-size: 1.5rem;
+   }
+ 
+   img {
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+ }
